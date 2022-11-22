@@ -10,8 +10,9 @@ dataLayer.push({
   "event": "click",
   "detailed_event": "CTA Link Clicked",
     "event_data": {
-        "category": "<category>",
-        "identifier": "<identifier>"
+        "identifier": "<identifier>",
+        "link_name": "<link_name>",
+        "link_url": "<link_url>"
     }
 });
 ```
@@ -20,8 +21,9 @@ dataLayer.push({
 
 |Path|Type|Description|Example|Pattern|Min Length|Max Length|Minimum|Maximum|Multiple Of|
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-|event_data.category|string|Count of times that visitors click on a Call to Action \(CTA\) link.||||||||
 |event_data.identifier|string|Captures the ID associated with CTA links used.|act now, cancel, ok, 3456, 8765|||||||
+|event_data.link_name|string|The event name formerly associated with the Universal Analytics event.|Clicked Sign Up|||||||
+|event_data.link_url|string|Captures the site destination of the navigation links used.|www.example.com/form|||||||
 
 
 
