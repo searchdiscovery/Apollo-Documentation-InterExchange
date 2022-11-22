@@ -11,7 +11,8 @@ dataLayer.push({
   "detailed_event": "CTA Link Clicked",
     "event_data": {
         "identifier": "<identifier>",
-        "link_name": "<link_name>"
+        "link_name": "<link_name>",
+        "link_url": "<link_url>"
     }
 });
 ```
@@ -22,7 +23,6 @@ dataLayer.push({
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 |event_data.identifier|string|Captures the ID associated with CTA links used.|act now, cancel, ok, 3456, 8765|||||||
 |event_data.link_name|string|The event name formerly associated with the Universal Analytics event|Clicked Sign Up|||||||
-
-
+|event_data.link_url|string|Captures the site destination of the navigation links used.|https:\/\/www.example.com|||||||
 
 
