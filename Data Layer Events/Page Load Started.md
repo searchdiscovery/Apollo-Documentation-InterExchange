@@ -9,7 +9,7 @@ dataLayer.push({ page_data: null });  // Clear the previous page_data object.
 dataLayer.push({
   "event": "page_load_started",
   "detailed_event": "Page Load Started",
-    "page_data": {
+  "page_data": {
         "country": "<country>",
         "language": "<language>",
         "name": "<name>",
@@ -17,10 +17,10 @@ dataLayer.push({
         "site_section": "<site_section>",
         "site_type": "<site_type>",
         "type": "<type>"
-    },
-    "user_data": {
+  },
+  "user_data": {
         "user_id": "<user_id>"
-    }
+  }
 });
 ```
 
