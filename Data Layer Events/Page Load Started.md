@@ -11,6 +11,7 @@ dataLayer.push({
   "detailed_event": "Page Load Started",
     "page_data": {
         "category": "<category>",
+        "cohort": "<cohort>",
         "country": "<country>",
         "department": "<department>",
         "language": "<language>",
@@ -33,6 +34,7 @@ dataLayer.push({
 |Path|Type|Description|Example|Pattern|Min Length|Max Length|Minimum|Maximum|Multiple Of|
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 |page_data.category|string|This is the page level category|Host, Participant|||||||
+|page_data.cohort|string|This is the page level name of the Cohort if present|"2023 Au Pair USA", "2022 Camp USA", "2021 Work Travel USA - Winter"|||||||
 |page_data.country|string|The country the site is associated with.||||||||
 |page_data.department|string|This is the page level department|Au Pair USA, Camp USA|||||||
 |page_data.language|string|The language of the current page, usually pulled from the &lt;html&gt; tag lang attribute.||||||||
