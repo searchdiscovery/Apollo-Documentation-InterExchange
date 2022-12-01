@@ -20,7 +20,12 @@ dataLayer.push({
         "program": "<program>",
         "program_country": "<program_country>",
         "program_type": "<program_type>",
-        "type": "<type>"
+        "type": "<type>",
+        "utm_campaign": "<utm_campaign>",
+        "utm_content": "<utm_content>",
+        "utm_medium": "<utm_medium>",
+        "utm_source": "<utm_source>",
+        "utm_term": "<utm_term>"
     },
     "user_data": {
         "type": "<type>",
@@ -44,6 +49,11 @@ dataLayer.push({
 |page_data.program_country|string|This is the program country at the page level|US, CA, IT, FR, DE|||||||
 |page_data.program_type|string|This is the page level program type|Au Pair, Camp|||||||
 |page_data.type|string|The type of page currently viewed.|home, pdp, article|||||||
+|page_data.utm_campaign|string|This is the utm campaign attribute|Facebook Ad, email, etc|||||||
+|page_data.utm_content|string|This is the UTM Content attribute||||||||
+|page_data.utm_medium|string|This is the UTM Medium attribute|Social, Organic, Paid, Email, Affiliates, etc|||||||
+|page_data.utm_source|string|This is the UTM Source attribute|Facebook, Twitter, LinkedIn, YouTube, etc.|||||||
+|page_data.utm_term|string|This is the UTM Term attribute||||||||
 |user_data.type|string|This is the user type|Host, Participant|||||||
 |user_data.user_id|string|The id of the user currently logged in to the site, if the site offers authentication and the user is authenticated.|123456, abc123|||||||
 
