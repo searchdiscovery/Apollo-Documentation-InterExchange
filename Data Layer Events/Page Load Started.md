@@ -15,6 +15,7 @@ dataLayer.push({
         "country": "<country>",
         "department": "<department>",
         "language": "<language>",
+        "marketing_site": "<marketing_site>",
         "name": "<name>",
         "page_location": "<page_location>",
         "program": "<program>",
@@ -43,6 +44,7 @@ dataLayer.push({
 |page_data.country|string|The country the site is associated with.||||||||
 |page_data.department|string|This is the page level department|Au Pair USA, Camp USA|||||||
 |page_data.language|string|The language of the current page, usually pulled from the &lt;html&gt; tag lang attribute.||||||||
+|page_data.marketing_site|string|This refers to the micro sites that marketing has deployed, allowing us to track whether they came from interexchange.org, aupairusa.org, or campusa.org|interexchange.org, aupairusa.org, or campusa.org|||||||
 |page_data.name|string|Captures the name of the page the user is on|product - XYZ123, Mens - Tops - Sweaters, Order Confirmation|||||||
 |page_data.page_location|string|The url of the page currently being viewed.||||||||
 |page_data.program|string|This is the page level program|Au Pair USA, Camp USA|||||||
