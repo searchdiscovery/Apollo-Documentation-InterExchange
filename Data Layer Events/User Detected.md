@@ -5,6 +5,7 @@
 ## Javascript Code
 ```js
 window.dataLayer = window.dataLayer || [];
+dataLayer.push({ page_data: null });  // Clear the previous page_data object.
 dataLayer.push({
   "event": "detect_user",
   "detailed_event": "User Detected",
