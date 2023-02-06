@@ -29,8 +29,8 @@ dataLayer.push({
         "utm_term": "<utm_term>"
     },
     "user_data": {
-        "type": "<type>",
-        "user_id": "<user_id>"
+        "user_id": "<user_id>",
+        "user_type": "<user_type>"
     }
 });
 ```
@@ -41,9 +41,9 @@ dataLayer.push({
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 |page_data.category|string|This is the page level category|Host, Participant|||||||
 |page_data.cohort|string|This is the page level name of the Cohort if present|"2023 Au Pair USA", "2022 Camp USA", "2021 Work Travel USA - Winter"|||||||
-|page_data.country|string|The country the site is associated with.||||||||
+|page_data.country|string|The country associated with the current page.|US, CA, FR, UK|||||||
 |page_data.department|string|This is the page level department|Au Pair USA, Camp USA|||||||
-|page_data.language|string|The language of the current page, usually pulled from the &lt;html&gt; tag lang attribute.||||||||
+|page_data.language|string|The language of the current page, usually pulled from the &lt;html&gt; tag lang attribute.|en-us, en-gb, ch-cn, fr-ca, fr-fr|||||||
 |page_data.marketing_site|string|This refers to the micro sites that marketing has deployed, allowing us to track whether they came from interexchange.org, aupairusa.org, or campusa.org|interexchange.org, aupairusa.org, or campusa.org|||||||
 |page_data.name|string|Captures the name of the page the user is on|product - XYZ123, Mens - Tops - Sweaters, Order Confirmation|||||||
 |page_data.page_location|string|The url of the page currently being viewed.||||||||
@@ -56,8 +56,8 @@ dataLayer.push({
 |page_data.utm_medium|string|This is the UTM Medium attribute|Social, Organic, Paid, Email, Affiliates, etc|||||||
 |page_data.utm_source|string|This is the UTM Source attribute|Facebook, Twitter, LinkedIn, YouTube, etc.|||||||
 |page_data.utm_term|string|This is the UTM Term attribute||||||||
-|user_data.type|string|This is the user type|Host, Participant|||||||
 |user_data.user_id|string|The id of the user currently logged in to the site, if the site offers authentication and the user is authenticated.|123456, abc123|||||||
+|user_data.user_type|string|This is the user type|Host, Participant|||||||
 
 
 
