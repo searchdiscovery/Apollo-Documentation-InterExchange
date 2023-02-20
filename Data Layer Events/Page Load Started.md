@@ -29,7 +29,7 @@ dataLayer.push({
         "utm_term": "<utm_term>"
     },
     "user_data": {
-        "user_id": "<user_id>",
+        "user_identifier": "<user_identifier>",
         "user_type": "<user_type>"
     }
 });
@@ -56,7 +56,7 @@ dataLayer.push({
 |page_data.utm_medium|string|This is the UTM Medium attribute|Social, Organic, Paid, Email, Affiliates, etc|||||||
 |page_data.utm_source|string|This is the UTM Source attribute|Facebook, Twitter, LinkedIn, YouTube, etc.|||||||
 |page_data.utm_term|string|This is the UTM Term attribute||||||||
-|user_data.user_id|string|The id of the user currently logged in to the site, if the site offers authentication and the user is authenticated.|123456, abc123|||||||
+|user_data.user_identifier|string|This is the user\_identifier parameter for GA4 reporting purposes.||||||||
 |user_data.user_type|string|This is the user type|Host, Participant|||||||
 
 
