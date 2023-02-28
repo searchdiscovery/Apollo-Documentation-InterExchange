@@ -29,7 +29,7 @@ dataLayer.push({
         "utm_term": "<utm_term>"
     },
     "user_data": {
-        "user_id": "<user_id>",
+        "user_identifier": "<user_identifier>",
         "user_type": "<user_type>"
     }
 });
